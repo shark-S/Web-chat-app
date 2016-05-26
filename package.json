@@ -1,0 +1,14 @@
+{
+  "name": "websocketapp",
+  "version": "1.0.0",
+  "description": "nodejs app to use websockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shark_s",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.23"
+  }
+}
