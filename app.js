@@ -63,7 +63,7 @@ wsServer.on('request',function(request){
 	});
 	connection.on('close',function(connection){
 	if(user!==false  && ucolor!== false){	clients.splice(id,1);
-		color.push(ucolor);
+		colors.push(ucolor);
 		console.log(new Date() + ' Peer '+connection.remoteAddres+ ' disconnected. ');
 	}
 });
